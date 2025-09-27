@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 4 demo</title>
+  </head>
+  <style>
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Week 4 demo</h1>
+      <nav>
+        <ul>
+          <li><a href="#onpagelink">On page link</a></li>
+          <li><a href="#youtubeparagraph">Youtube</a></li>
+          <li><a href="page2.html">Page 2</a></li>
+          <li><a href="page3.html">Page 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Images</h2>
+        <img
+          src="images/coffee-shop.jpg"
+          alt="an image of a coffee mug on a table"
+        />
+        <p id="youtubeparagraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dicta
+          vitae
+          <a href="https://www.youtube.com/" target="_blank">youtube</a> earum
+          cupiditate nostrum tenetur itaque, modi iure voluptatem, suscipit
+          eaque error ex magnam blanditiis minima fugit ab eum quia.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+          repellendus labore incidunt et? Recusandae dolore tempora
+          exercitationem vitae architecto voluptates inventore, incidunt iure
+          qui sint ipsam amet praesentium, quo fuga!
+        </p>
+        <p>
+          Nostrum est tenetur veniam minima adipisci error? Porro, nemo. Earum
+          atque, dignissimos veritatis dolore maiores facilis natus quibusdam ab
+          deleniti consectetur, enim minus voluptatem, voluptates dolor iste
+          doloremque! Sint, quisquam.
+        </p>
+        <p>
+          Nostrum labore est ad tenetur quasi voluptatibus cumque officia
+          voluptatum natus veniam odit incidunt ratione illum consectetur, a cum
+          commodi obcaecati ut aliquam nesciunt in reiciendis inventore dolorem?
+          Aliquid, nesciunt!
+        </p>
+        <p>
+          Vel corporis optio illum sed nam distinctio cumque minima quas
+          perferendis natus. Provident maxime, ipsam, doloribus eligendi
+          molestiae hic voluptate possimus cum voluptas odit nesciunt
+          repellendus incidunt distinctio dolorem obcaecati!
+        </p>
+        <p id="onpagelink">
+          Est odit in voluptatem doloremque doloribus! Ratione, perspiciatis
+          eveniet quam expedita enim, blanditiis nostrum qui maxime dolore error
+          neque vero aperiam! Repellat eius excepturi, consectetur ipsa natus
+          quibusdam exercitationem possimus?
+        </p>
+      </section>
+      <section>
+        <h2>Tables</h2>
+        <table>
+          <caption>
+            Student Information
+          </caption>
+          <thead>
+            <tr>
+              <th>Student Name</th>
+              <th>Student Number</th>
+              <th>Program</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Loic Guillen</td>
+              <td>041061963</td>
+              <td>IMD</td>
+            </tr>
+            <tr>
+              <td>bichita</td>
+              <td>982</td>
+              <td>business man</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Forms</h2>
+        <form action="page2.html" method="GET">
+          <div>
+            <label for="fname">Firstname</label>
+            <input id="fname" type="text" name="Firstname" required />
+          </div>
+          <div>
+            <label for="lname">Lastname</label>
+            <input id="lname" type="text" name="Lastname" />
+          </div>
+          <div>
+            <label for="date">Date of Birth</label>
+            <input id="date" type="date" />
+          </div>
+          <div>
+            <label for="pword">Password</label>
+            <input type="password" name="Password" id="pword" />
+          </div>
+          <div>
+            <label for="comment">comment</label>
+            <textarea name="comment" id="comment"></textarea>
+          </div>
+          <div>
+            <label for="program">program</label>
+            <select name="pgm" id="program">
+              <option value="imd">IMD</option>
+              <option value="graphic" selected>GD</option>
+              <option value="Bichita">My cat</option>
+            </select>
+          </div>
+          <div>
+            <h3>Preferred communication</h3>
+            <label for="email">Email</label>
+            <input type="checkbox" name="email" id="email" />
+            <label for="phone">Phone</label>
+            <input type="checkbox" name="phone" id="phone" />
+            <label for="mail">Mail</label>
+            <input type="checkbox" name="mail" id="mail" />
+            <label for="inperson">In-peson</label>
+            <input type="checkbox" name="inperson" id="inperson" />
+          </div>
+          <div>
+            <h3>Preffered music type</h3>
+            <label for="rap">RAP</label>
+            <input type="radio" name="music" id="rap" value="rap" />
+            <label for="rnb">R&B</label>
+            <input type="radio" name="music" id="rnb" value="rnb" />
+            <label for="soul">Soul</label>
+            <input type="radio" name="music" id="soul" value="soul" />
+            <label for="afro">Afro</label>
+            <input type="radio" name="music" id="afro" value="afro" />
+          </div>
+          <div>
+            <button type="submit">SEND IT</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
