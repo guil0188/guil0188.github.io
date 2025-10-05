@@ -4,58 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Assignment</title>
-    <style>
-      footer {
-        text-align: center;
-        padding: 20px;
-        background: #cccccc85;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-      }
-
-      .about {
-        display: flex;
-        align-items: flex-start;
-      }
-      .about img {
-        width: 200px;
-        margin-right: 30px;
-        border-radius: 10%;
-      }
-      .p1 {
-        margin-right: 30px;
-      }
-      .p2 {
-        margin-right: 30px;
-      }
-      .quote {
-        position: fixed;
-        bottom: 60px;
-      }
-      header {
-        text-align: center;
-        background: #a07358;
-        padding: 1px;
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <nav>
+  <body>
+    <header class="site-title">
+      <h1>LOIC GUILLEN</h1>
+    </header>
+    <nav>
     <ul>
       <li><a href="notes.html">Notes</a></li>
     </ul>
   </nav>
-  <body>
-    <header>
-      <h1>LOIC GUILLEN</h1>
-    </header>
     <hr />
     <main>
+      <section>
       <h2><em>About me</em></h2>
       <article>
-        <div class="about">
-          <img src="images/loic.png" alt="An image of Loic Guillen" />
+          <img id="my-image" src="images/loic.png" alt="An image of Loic Guillen" />
           <p class="p1">
             Hello, my name is Loic Guillen, I am 21 years of age and my birthday
             is February 28<sup>th</sup>. I was born in Ottawa, Canada. My mom is
@@ -84,13 +49,15 @@
             create a cool website, and I am <strong>positive</strong> that I
             will stick with this program.
           </p>
-        </div>
       </article>
+      </section>
       <section>
         <h2>Hobbies</h2>
-        <ul>
+        <ul class="hobbies">
           <li>Video Games</li>
-          <li>PLaying soccer</li>
+          <li>Playing soccer</li>
+          <li>Running</li>
+          <li>Anime</li>
         </ul>
       </section>
       <div class="quote">
@@ -98,6 +65,8 @@
         <q>Work to live, dont live to work</q> <cite>- Loic Guillen</cite>
       </div>
     </main>
-    <footer>Copyright 2025 Loic Guillen</footer>
+    <footer>
+      <p id="Copyright">Copyright 2025 Loic Guillen</p>
+    </footer>
   </body>
 </html>
