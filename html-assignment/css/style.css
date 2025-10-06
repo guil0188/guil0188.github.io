@@ -43,7 +43,7 @@ nav a {
     border-radius: 30px ;   
 }
 
-nav a :hover, :focus { 
+nav a:hover{ 
     background-color: yellow;
 }
 
