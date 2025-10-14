@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <header><h1>Lone Starfish</h1></header>
+    <header>
+      <img
+        src="images/lone-starfish-wide.jpg"
+        alt="Picture of starfish with blur bacckground"
+      />
+      <h1>Lone Starfish</h1>
+    </header>
     <nav>
       <ul>
         <li>Home</li>
@@ -18,6 +24,7 @@
     <main>
       <article>
         <h2>Life of a Starfish</h2>
+        <img src="images/lone-starfish.jpg" alt="Image of starfish" />
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
           incidunt at iusto ut aut fugit cumque eum expedita quia earum maiores
@@ -49,6 +56,35 @@
           </li>
         </ul>
       </article>
+      <section>
+        <h3>Contact to learn more</h3>
+        <form action="">
+          <div>
+            <label for="name">Your Name</label>
+            <input type="text" name="Your name" id="name" />
+          </div>
+          <div>
+            <label for="email">Your email</label>
+            <input type="text" name="Your email" id="email" />
+          </div>
+          <div>
+            <label for="message">Your message</label>
+            <textarea name="Your message" id="mmessage"></textarea>
+          </div>
+          <div>
+            <h4>Would you like to visit the starfish?</h4>
+            <label for="yes">Yes</label>
+            <input type="radio" name="visit" id="yes" value="yes" />
+            <label for="no">No</label>
+            <input type="radio" name="visit" id="no" value="no" />
+            <label for="maybe">Maybe</label>
+            <input type="radio" name="visit" id="maybe" value="maybe" />
+          </div>
+          <div>
+            <button>Send</button>
+          </div>
+        </form>
+      </section>
     </main>
     <footer>&copy;Loic Guillen 2025</footer>
   </body>
