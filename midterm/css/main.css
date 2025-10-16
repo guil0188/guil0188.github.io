@@ -8,7 +8,19 @@ body{
     width: 60%;
     margin: 0 auto;
 }
+header{
+    position: relative;
+}
 
 header img{
     width: 100%;
+}
+h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    
+    
 }
