@@ -9,46 +9,60 @@ body{
     width: 60%;
     margin: 0 auto;
 }
-header{
-    position: relative;
+header {
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid #97b1ad;
 }
 
-header img{
-    width: 100%;
+header img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-h1{
-    color: white;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%) ;
-    font-size: 3em;
-    
-    
-}
-nav ul {
-  list-style:none ;
+
+/* Centers the h1 on top of the image */
+header h1 {
+  position: absolute;
+  top: 50%;                /* move halfway down the image */
+  left: 50%;               /* move halfway across the image */
+  transform: translate(-50%, -50%); /* center perfectly */
+  color: white;
+  font-size: 2.5em;
   margin: 0;
-  padding: 10px;
+  font-weight: bold;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
-
+  align-items: center;
+  list-style: none;
+  height: 50px; /* makes bar uniform height */
 }
 
 nav li {
-  margin: 0;
-  border-right: 2px solid black;
+  border-right: 1px solid #222; /* the black line dividers */
+  padding: 0 130px;
+}
 
+nav li:last-child {
+  border-right: none; /* removes line after Contact */
 }
 
 nav a {
-  display: block;
-  padding: 10px 140px;
   text-decoration: none;
   color: #222;
-  font-weight: bold;
-  font-size: 2em;
+  font-size: 1rem;
 }
-nav li:last-child{
-    border-right: none;
+
+.float img{
+    height: 200px;
+    width: 200px;
+    margin-left: 8px;
+    margin-right: 10px;
+    float: left;
+    
 }
