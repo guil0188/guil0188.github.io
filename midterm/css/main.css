@@ -67,10 +67,21 @@ nav a {
   border: 1px solid black
 }
 .form input{
-  padding: ;
+  width: 90%;
+  margin: 20px;
+}
+.form label{
+  margin-left: 20px;
+  
 }
 button{
   padding: 10px ;
   background: none;
   margin: 20px;
+  transition: transform 0.5s, background-color 1s, box-shadow 1s;
+}
+button:hover{
+  background-color: rgb(68, 175, 228);
+  transform: scale(1.5);
+  box-shadow: -20px -20px 1px 0px rgba(207, 7, 7, 1);  
 }
