@@ -8,7 +8,12 @@ body{
     background-color: aquamarine;
     width: 60%;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
+main {
+  padding: 10px 10px; /* adds space on left & right */
+}
+
 header {
   position: relative;
   text-align: center;
@@ -40,12 +45,12 @@ nav ul {
   justify-content: center;
   align-items: center;
   list-style: none;
-  height: 50px; /* makes bar uniform height */
+  height: 90px; /* makes bar uniform height */
 }
 
 nav li {
   border-right: 1px solid #222; /* the black line dividers */
-  padding: 0 130px;
+  padding: 0 10%;
 }
 
 nav li:last-child {
@@ -55,14 +60,17 @@ nav li:last-child {
 nav a {
   text-decoration: none;
   color: #222;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
-.float img{
-    height: 200px;
-    width: 200px;
-    margin-left: 8px;
-    margin-right: 10px;
-    float: left;
-    
+.form form{
+  border: 1px solid black
+}
+.form input{
+  padding: ;
+}
+button{
+  padding: 10px ;
+  background: none;
+  margin: 20px;
 }
