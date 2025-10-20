@@ -37,6 +37,17 @@ header h1 {
   margin: 0;
   font-weight: bold;
 }
+.float img{
+  height: 300px;
+  width: 300px;
+  margin: 14px;
+
+  float: left;
+}
+.float p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 nav ul {
   margin: 0;
@@ -64,15 +75,23 @@ nav a {
 }
 
 .form form{
-  border: 1px solid black
+  border: 1px solid black;
+  padding-top: 30px;
+
 }
 .form input{
-  width: 90%;
-  margin: 20px;
+  width: 95%;
+  margin: 10px;
+  border: 1px solid lightgray;
 }
 .form label{
-  margin-left: 20px;
-  
+  margin: 20px;  
+}
+textarea{
+  width: 95%;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid grey;
 }
 button{
   padding: 10px ;
@@ -84,4 +103,7 @@ button:hover{
   background-color: rgb(68, 175, 228);
   transform: scale(1.5);
   box-shadow: -20px -20px 1px 0px rgba(207, 7, 7, 1);  
+}
+footer{
+  text-align: right;
 }
