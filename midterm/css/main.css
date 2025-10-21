@@ -76,34 +76,53 @@ nav a {
 
 .form form{
   border: 1px solid black;
-  padding-top: 30px;
-
+  padding-top: 20px;
 }
 .form input{
   width: 95%;
   margin: 10px;
   border: 1px solid lightgray;
 }
-.form label{
-  margin: 20px;  
+.form label, h3{
+  margin-left: 10px;
 }
+
 textarea{
   width: 95%;
   height: 100px;
   margin: 10px;
   border: 1px solid grey;
 }
+.radio{
+  display: flex;
+}
+.radio #yes {
+  position: relative;
+  top: 25px;
+}
+.radio #no{
+  position: relative;
+  top: 25px;
+
+}
+.radio #maybe{
+  position: relative;
+  top: 25px;
+  left: 20px;
+} 
+.radio label{
+  position: relative;
+  bottom: 20px;
+}
+
+
 button{
   padding: 10px ;
   background: none;
-  margin: 20px;
-  transition: transform 0.5s, background-color 1s, box-shadow 1s;
+  margin: 10px;
 }
-button:hover{
-  background-color: rgb(68, 175, 228);
-  transform: scale(1.5);
-  box-shadow: -20px -20px 1px 0px rgba(207, 7, 7, 1);  
-}
+
 footer{
   text-align: right;
+  padding: 20px;
 }
