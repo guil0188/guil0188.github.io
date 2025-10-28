@@ -16,8 +16,7 @@ main {
 
 header {
   position: relative;
-  text-align: center;
-  border-bottom: 1px solid #97b1ad;
+  text-align: center; 
 }
 
 header img {
@@ -35,10 +34,13 @@ header h1 {
   margin: 0;
   font-weight: bold;
 }
+h2, form{
+  margin-left: 10px;
+}
 .float img{
   height: 300px;
   width: 300px;
-  margin: 14px;
+  margin: 10px;
 
   float: left;
 }
