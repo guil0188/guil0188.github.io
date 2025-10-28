@@ -11,7 +11,7 @@ body{
     margin-bottom: 20px;
 }
 main {
-  padding: 10px 10px; /* adds space on left & right */
+  padding: 10px 10px; 
 }
 
 header {
@@ -25,13 +25,11 @@ header img {
   height: auto;
   display: block;
 }
-
-/* Centers the h1 on top of the image */
 header h1 {
   position: absolute;
-  top: 50%;                /* move halfway down the image */
-  left: 50%;               /* move halfway across the image */
-  transform: translate(-50%, -50%); /* center perfectly */
+  top: 50%;                
+  left: 50%;               
+  transform: translate(-50%, -50%); 
   color: white;
   font-size: 2.5em;
   margin: 0;
@@ -50,29 +48,31 @@ header h1 {
 }
 
 nav ul {
+  list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  list-style: none;
-  height: 90px; /* makes bar uniform height */
 }
 
 nav li {
-  border-right: 1px solid #222; /* the black line dividers */
+  margin: 0;
+  margin-top: 5px;
+  border-right:1px solid black ;
   padding: 0 10%;
+  font-size: 1.2em;  
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  
 }
 
 nav li:last-child {
-  border-right: none; /* removes line after Contact */
+  border-right: none;
 }
 
-nav a {
-  text-decoration: none;
-  color: #222;
-  font-size: 1.5rem;
-}
+
 
 .form form{
   border: 1px solid black;
@@ -113,6 +113,7 @@ textarea{
 .radio label{
   position: relative;
   bottom: 20px;
+  margin-right: 0px;
 }
 
 
