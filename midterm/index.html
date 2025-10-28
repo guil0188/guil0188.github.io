@@ -4,25 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width='device-width', initial-scale=1.0" />
     <title>Midterm guil0188</title>
+    <!-- Links the external CSS file for styling -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <!-- Wrapper holds the entire page content -->
     <div class="wrapper">
+      <!-- Header section with main image, title, and navigation -->
       <header>
         <img src="images/lone-starfish-wide.jpg" alt="image of starfish" />
         <h1>Lone Starfish</h1>
+        <!-- Navigation menu -->
         <nav>
           <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">STORY</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#story">STORY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
       </header>
+      <!-- Main content area -->
       <main>
-        <div class="float">
+        <!-- Section with an image and text about starfish -->
+        <div class="float" id=".story">
           <h2>Life of a starfish</h2>
           <img src="images/lone-starfish.jpg" alt="Image of starfish" />
+          <!-- Paragraph of descriptive text -->
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
             pariatur in sunt magnam. Molestias consequuntur doloremque odio
@@ -47,6 +54,7 @@
             debitis fuga!
           </p>
         </div>
+        <!-- Section listing interesting facts -->
         <div class="list">
           <h2>Facts About Starfish</h2>
           <ul>
@@ -68,21 +76,27 @@
             </li>
           </ul>
         </div>
-        <div class="form">
+        <!-- Contact form section -->
+        <div class="form" id="contact">
           <h2>Contact to learn more</h2>
+          <!-- The form itself -->
           <form action="#">
+            <!-- Name input field -->
             <div>
               <label for="name">Your Name</label>
               <input type="text" name="Your Name" id="name" />
             </div>
+            <!-- Email input field -->
             <div>
               <label for="email">Your Email</label>
               <input type="text" name="Your Email" id="email" />
             </div>
+            <!-- Message text area -->
             <div>
               <label for="message">Your Message</label>
               <textarea name="Your Message" id="message"></textarea>
             </div>
+            <!-- Radio buttons grouped together -->
             <div class="check">
               <h3>Would you like to visit the starfish?</h3>
 
@@ -103,10 +117,12 @@
                 >
               </div>
             </div>
+            <!-- Submit button -->
             <button>SEND</button>
           </form>
         </div>
       </main>
+      <!-- Footer with copyright -->
       <footer>&copy; Loic Guillen 2025</footer>
     </div>
   </body>
