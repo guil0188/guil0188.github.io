@@ -1,12 +1,12 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
     background-color: beige;
 }
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     background-color: #e1d287;
     border: 2px solid #333;
@@ -25,6 +25,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 1000px;
 }
 .hero{
     height: 400px;
@@ -47,14 +48,11 @@ body{
     color: #007bff;
     font-weight: bold;
     cursor: pointer;
-    transition: transform 0.3s ;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.7s;
 }
 
 .hero button:hover{
     transform: scale(1.5);
-}
-.box :nth-child(1){
-    display: flex;
-    justify-content: flex-end;
-
+    box-shadow: 0 0 28px rgba(0,0,0,1);
+    background-color: rgb(250, 234, 162);
 }
