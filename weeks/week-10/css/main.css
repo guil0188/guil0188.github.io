@@ -1,0 +1,70 @@
+.row{
+    padding: 1rem;
+    background-color: bisque;
+    margin: 0.5rem 0;
+}
+.column{
+    background-color: aqua;
+    margin: 0.5rem;
+    padding:  1rem;
+}
+.mainaxis1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.mainaxis2{
+    display: flex;
+    justify-content: center;
+}
+.col1, .col3{
+    flex-grow: 1;
+}
+.col2{
+    flex-grow: 2;
+}
+.mainaxis3{
+    display: flex;
+    justify-content: space-between;
+}
+.mainaxis4{
+    display: flex;
+    justify-content: flex-end;
+}
+.mainaxis5{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.crossaxis1{
+    height: 300px;
+    display: flex;
+
+}
+.crossaxis2{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.crossaxis3{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.crossaxis4{
+    height: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
+.crossaxis5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col5{
+    order: 1;
+}
+.col3{
+    order: 1;
+}
