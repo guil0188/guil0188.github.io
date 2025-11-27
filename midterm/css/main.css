@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ; /* Sets the font of the page */
+    background-color: #aad4cf; /* Light teal background color */
+    margin: 0; /*Removes default margin around the page */
+
+}
+.wrapper{
+    background-color: aquamarine; /* Background for the main content */
+    width: 60%; /* Page content takes up too 60% of the browser width */
+    margin: 0 auto; /* Centers horizontally */
+    margin-bottom: 20px; /* Adds space at the bottom */
+}
+main {
+  padding: 10px 10px; /* Adds space inside the main content */
+}
+
+header {
+  position: relative;
+  text-align: center; /* Centers text inside header */
+}
+/* Header image fills the width of its container */
+header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Title text center over the heaader image */
+header h1 {
+  position: absolute;
+  top: 50%;                
+  left: 50%;               
+  transform: translate(-50%, -50%); /* Perfectly centers the title */ 
+  color: white;
+  font-size: 2.5em;
+  margin: 0;
+  font-weight: bold;
+}
+h2, form{
+  margin-left: 10px;
+}
+/* Floats image next to text */
+.float img{
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  float: left; /* Pushes image to the left, allowing text to wrap */
+}
+/*Paragraph spacing insde float section*/
+.float p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* Navigation menu setup */
+nav ul {
+  list-style: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0px;
+  display: flex; /* Displays list items side by side*/
+  justify-content: center; /* Centers the nav items horizontally*/
+}
+/* Each nabigation items*/
+nav li {
+  margin: 0;
+  margin-top: 5px;
+  border-right:1px solid black ; /* Adds border between items*/
+  padding: 0 10%; /* Adds horizontal space inside each item*/
+  font-size: 1.2em;  
+}
+/* Nav links*/
+nav a {
+  text-decoration: none; /* removes underline*/
+  color: black;
+  
+}
+
+/* Removes the right border from the last nav item */
+nav li:last-child {
+  border-right: none;
+}
+
+
+/* Form container border and spacing */
+.form form{
+  border: 1px solid black;
+  padding-top: 20px;
+}
+/* Text and email input fields */
+.form input{
+  width: 95%;
+  margin: 10px;
+  border: 1px solid lightgray;
+}
+/* Label and heading spacing */
+.form label, h3{
+  margin-left: 10px;
+}
+/* Text area for message box */
+textarea{
+  width: 95%;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid grey;
+}
+/* Radio  button container*/
+.radio{
+  display: flex; /* Put radio options side by side*/
+}
+/* Position each individual radio button*/
+.radio #yes {
+  position: relative;
+  top: 25px;
+}
+.radio #no{
+  position: relative;
+  top: 25px;
+
+}
+.radio #maybe{
+  position: relative;
+  top: 25px;
+  left: 20px;
+} 
+/* Label text allignment next to radio buttons */
+.radio label{
+  position: relative;
+  bottom: 20px; /* Moves label text up slightly */
+  margin-right: 0px;
+}
+
+/* Submit button */
+button{
+  padding: 10px ;
+  background: none;
+  margin: 10px;
+}
+/* Footer */
+footer{
+  text-align: right;
+  padding: 20px;
+}

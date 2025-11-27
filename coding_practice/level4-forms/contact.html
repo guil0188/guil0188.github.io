@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Form</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Contact me</legend>
+            <div class="form-row">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                name="Name"
+                id="name"
+                required
+                minlength="2"
+                pattern="^[A-Za-zÀ-ÖØ-öø-ÿ'\- ]+$"
+              />
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="5"
+              required
+              minlength="10"
+              maxlength="500"
+              placeholder="Right your message here..."
+            ></textarea>
+
+            <button type="Submit">Send</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>Copyright 2025 Loic Guillen</footer>
+  </body>
+</html>
