@@ -96,5 +96,8 @@ nav a{
 }
 .hero{
 	background-image: url(../images/main-banner.jpg);
+	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%
 }
