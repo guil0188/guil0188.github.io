@@ -49,7 +49,32 @@ table {
 /* custom css start */
 .navigation{
 	background-color: #222222;
+	padding: 0.5rem;
 }
-.navigation img{
+.image-logo{
+	background-color: #c78c06;
+	padding: 0.7rem 0rem 3.5rem 0rem;
+}
+nav ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 3rem;
+}
+.search-form{
+	display: flex;
+
+}
+.search-form input{
+	flex: 1;
+	padding: 0.5rem;
+}
+.search-form button{
+	background-color: #222;
+	border: 1px solid #c78c06;
+	color: #c78c06;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	
 }
