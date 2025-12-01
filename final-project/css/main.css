@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 /* custom css start */
+body{
+	line-height: 1.4;
+}
 .navigation{
 	background-color: #222222;
 	padding: 0.5rem;
@@ -57,7 +60,12 @@ table {
 	padding: 0.7rem 0rem 3.5rem 0rem;
 	width: 100%;
 }
-
+.navigation nav{
+	margin-top: -3rem;
+}
+.home-link{
+	color: #222222;
+}
 nav ul{
 	display: flex;
 	flex-direction: column;
@@ -85,4 +93,8 @@ nav a{
 	align-items: center;
 	justify-content: center;
 	
+}
+.hero{
+	background-image: url(../images/main-banner.jpg);
+	background-position: center;
 }
