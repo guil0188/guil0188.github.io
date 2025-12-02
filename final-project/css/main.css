@@ -107,8 +107,7 @@ nav a{
 .hero-content{
 	background-color: rgba(34, 34, 34, 0.9);
 	color: #ffffff;
-	max-width: 32rem;
-	padding: 2.5rem 2.5rem;
+	padding: 1rem 1rem;
 }
 
 .hero-content h1{
