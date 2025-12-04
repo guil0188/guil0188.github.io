@@ -290,7 +290,7 @@ nav a{
 	width: 100%;
 	padding: 0.5rem;
 	margin-bottom: 0.75rem;
-	border: 1px solid #cccccc;
+	border: 1px solid black;
 	font-size: 0.9rem;
 }
 .contact-form button{
@@ -302,3 +302,49 @@ nav a{
 	font-weight: 500;
 }
 /* Hours Table */
+.hours{
+	margin-bottom: 2rem;
+}
+.hours h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+.hours table{
+	width: 100%;
+	border: 1px solid black;
+}
+.hours th, .hours td{
+	border: 1px solid black;
+	padding: 0.5rem;
+	font-size: 1rem;
+	text-align: left;
+}
+.hours th{
+	text-align: center;
+}
+.hours thead{
+	background-color: #ffe6ac;
+	text-align: center;
+}
+/* Location */
+.location h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+.location iframe{
+	width: 100%;
+	height: 300px;
+	display: block;
+}
+/* Footer */
+footer{
+	margin-top: 1rem;
+	background-color: #222222;
+	color: #c78c06;
+	padding: 1.5rem;
+}
+footer a{
+	color: #c78c06;
+}
