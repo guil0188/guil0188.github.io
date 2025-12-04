@@ -258,7 +258,9 @@ nav a{
 	font-size: 0.9rem;
 	font-weight: bold;
 	color: #222222;
-	margin-bottom: 0.75rem ;
+	margin-bottom: 0.5rem;
+	padding-bottom: 0.15rem;
+	border-bottom: 2px solid #c78c06;
 }
 .member-content p{
 	font-size: 0.9rem;
