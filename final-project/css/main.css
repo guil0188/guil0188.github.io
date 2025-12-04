@@ -230,3 +230,49 @@ nav a{
 	font-size: 1rem;
 }
 /* team */
+.team{
+	padding: 2rem 1rem;
+}
+.team h2{
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+.team-member{
+	background-color: #ffe6ac;
+	margin-bottom: 0.5rem;
+}
+.team-member img{
+	width: 100%;
+	display: block;
+}
+.member-content{
+	padding: 1rem;
+}
+.member-content h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0.25rem;
+}
+.member-content h4{
+	font-size: 0.9rem;
+	font-weight: bold;
+	color: #222222;
+	margin-bottom: 0.75rem ;
+}
+.member-content p{
+	font-size: 0.9rem;
+	line-height: 1.5;
+}
+/* contact / form / hours / location */
+.contact-us{
+	padding: 2rem 1rem;
+}
+.contact-us h2{
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+.contact-form{
+	margin-bottom: 2rem;
+}
