@@ -139,6 +139,7 @@ nav a{
 .hero-content a:hover{
 	cursor: pointer;
 }
+/* About us */
 .about-us{
 	background-color: #ffe6ac;
 	padding: 2rem 1rem;
@@ -151,11 +152,29 @@ nav a{
 	padding-top: 1.5rem;
 }
 .about-text h2{
-	font-size: 2.4rem;
+	font-size: 2.5rem;
 	font-weight: bold;
 }
 .about-text p{
 	font-size: 0.9rem;
 	line-height: 1.6;
 	margin-top: 1rem;
+}
+/* Services */
+.services{
+	padding: 2rem 1rem;
+}
+.services h2{
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+.service{
+	background-color: #ffe6ac;
+	margin-bottom: 0.5rem;
+}
+.service img{
+	width: 100%;
+	display: block;
+
 }
