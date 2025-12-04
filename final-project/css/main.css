@@ -106,7 +106,7 @@ nav a{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height: 450%;
+	min-height: 450px;
 	display: flex;
 	align-items: center;
 	padding: 3rem 0rem;
@@ -138,4 +138,24 @@ nav a{
 }
 .hero-content a:hover{
 	cursor: pointer;
+}
+.about-us{
+	background-color: #ffe6ac;
+	padding: 2rem 1rem;
+}
+.about-us img{
+	width: 100%;
+	display: block;
+}
+.about-text{
+	padding-top: 1.5rem;
+}
+.about-text h2{
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+.about-text p{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	margin-top: 1rem;
 }
