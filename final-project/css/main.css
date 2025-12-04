@@ -202,13 +202,31 @@ nav a{
 	font-size: 0.85rem;
 }
 /* Vison section */
-.vision{
-	margin-top:;
+.vision-content{
+	background-image: url(../images/vision.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+	padding: 1.5rem;
 }
-.vision img{
-	width: 100%;
-	display: block;
+.vision-content h2{
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
 }
-.vison img{
-	
+.vision-content p{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	margin-bottom: 1rem;
+
 }
+.vision-content a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 1.3rem;
+	background-color: #222222;
+	border: 1px solid #c78c06;
+	color: #ffffff; 
+	font-size: 1rem;
+}
+/* team */
