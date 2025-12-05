@@ -106,7 +106,7 @@ nav a{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height: 450%;
+	min-height: 450px;
 	display: flex;
 	align-items: center;
 	padding: 3rem 0rem;
@@ -139,5 +139,3 @@ nav a{
 .hero-content a:hover{
 	cursor: pointer;
 }
-
-/* About Section */
