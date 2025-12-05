@@ -192,14 +192,20 @@ nav a{
 	margin-bottom: 1rem;
 
 }
+
 /* button style for service cards */
 .btn{
-	display: inline-block;
+	display: inline-flex;
+	align-items: center;
 	background-color: #222222;
 	color: #ffffff;
 	text-decoration: none;
 	padding: 1.6rem;
-	font-size: 0.85rem;
+	font-size: 1.3rem;
+
+}
+.service span{
+	font-size: 4rem;
 }
 /* Vison section */
 .vision-content{
