@@ -357,7 +357,7 @@ footer a{
 	color: #c78c06;
 }
 /* Desktop layout */
-@media screen and(min-width: 760px){
+@media screen and (min-width: 760px){
 	/* Header / nav bar */
 	.navigation{
 		display: flex;
