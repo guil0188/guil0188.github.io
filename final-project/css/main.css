@@ -356,3 +356,12 @@ footer{
 footer a{
 	color: #c78c06;
 }
+
+@media screen and(min-width: 760px){
+	/* Header / nav bar */
+	.navigation{
+		display: flex;
+		align-items: center;
+		padding: 1rem;
+	}
+}
