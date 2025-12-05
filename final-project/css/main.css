@@ -374,10 +374,32 @@ footer a{
 	}
 	nav ul{
 		flex-direction: row;
-		gap: 1.5rem;
+		gap: 7rem;
+		margin-left: 5rem;
 	}
 	.search-form{
 		max-width: 300px;
 		margin-left: auto;
+	}
+	.home-link{
+		color: #c78c06;
+	}
+	/* Hero section */
+	.hero{
+		display: flex;
+		justify-content: center;
+		min-height: 500px;
+	}
+	.hero-content{
+		max-width: 80%;
+		padding: 7rem 3rem;
+	}
+	/* About us */
+	.about-us{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+		align-items: center;
+		padding: 3rem 1.5rem;
 	}
 }
