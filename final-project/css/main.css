@@ -368,4 +368,16 @@ footer a{
 		padding: 0.5rem 1rem;
 		width: auto;
 	}
+	.navigation nav{
+		margin-top: 0;
+		margin-left: 1rem ;
+	}
+	nav ul{
+		flex-direction: row;
+		gap: 1.5rem;
+	}
+	.search-form{
+		max-width: 300px;
+		margin-left: auto;
+	}
 }
