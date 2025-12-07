@@ -363,42 +363,51 @@ footer a{
 }
 /* Desktop layout */
 @media screen and (min-width: 760px){
+
 	/* Header / nav bar */
 	.navigation{
 		display: flex;
 		align-items: center;
 		padding: 1rem;
 	}
+
 	.image-logo{
 		padding: 0.5rem 1rem;
 		width: auto;
 	}
+
 	.navigation nav{
 		margin-top: 0;
-		margin-left: 1rem ;
+		margin-left: 1rem;
 	}
+
 	nav ul{
 		flex-direction: row;
 		gap: 7rem;
 		margin-left: 5rem;
 	}
+
 	.search-form{
 		max-width: 300px;
 		margin-left: auto;
 	}
+
 	.home-link{
 		color: #c78c06;
 	}
+
 	/* Hero section */
 	.hero{
 		display: flex;
 		justify-content: center;
 		min-height: 500px;
 	}
+
 	.hero-content{
 		max-width: 80%;
 		padding: 7rem 3rem;
 	}
+
 	/* About us */
 	.about-us{
 		display: grid;
@@ -407,24 +416,139 @@ footer a{
 		align-items: center;
 		padding: 3rem 4.5rem;
 	}
+
 	.about-us img{
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
 	}
-	/* our services */
+
+	/* === OUR SERVICES === */
 	.services{
-		padding: 3rem 1.5rem;
+		padding: 3rem 4.5rem;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 1.5rem;
+		column-gap: 2rem;
+		row-gap: 2rem;
 	}
+
 	.services h2{
 		grid-column: 1 / -1;
 		margin-bottom: 1rem;
 	}
+
 	.service{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 0;               /* grid gap handles spacing */
+		background-color: #ffe6ac;
+	}
+
+	.service img{
+		width: 100%;
+		height: 230px;
+		object-fit: cover;
+		display: block;
+	}
+
+	.service-content{
+		flex: 1;
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.service-content h3{
+		margin-bottom: 0.7rem;
+	}
+
+	.service-content p{
+		margin-bottom: 1.2rem;
+	}
+
+	/* service button + arrow like mock */
+	.btn{
+		display: inline-flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #222222;
+		color: #ffffff;
+		text-decoration: none;
+		padding: 0.9rem 1.8rem;
+		font-size: 0.9rem;
+		margin-top: auto;               /* sticks button to bottom */
+	}
+
+	.service span{
+		font-size: 1.1rem;              /* small arrow */
+		margin-left: 1.5rem;
+	}
+
+	/* === OUR VISION === */
+	.vision-content{
+		padding: 3rem 4.5rem;
+	}
+
+	/* === OUR TEAM === */
+	.team{
+		padding: 3rem 4.5rem;
+	}
+
+	.team-member{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 2rem;
+	}
+
+	.team-member img{
+		width: 100%;
 		height: 100%;
+		object-fit: cover;
+	}
+
+	.member-content{
+		padding: 1.5rem;
+	}
+
+	/* second team member: text on left, photo on right */
+	.team-member:nth-of-type(2) img{
+		order: 2;
+	}
+
+	.team-member:nth-of-type(2) .member-content{
+		order: 1;
+	}
+
+	/* === CONTACT + HOURS === */
+	.contact-us{
+		padding: 3rem 4.5rem;
+		display: grid;
+		grid-template-columns: 2fr 2fr;
+		grid-template-areas:
+			"title title"
+			"form  map"
+			"hours hours";
+		column-gap: 2rem;
+		row-gap: 2rem;
+	}
+
+	.contact-us h2{
+		grid-area: title;
+	}
+
+	.contact-form{
+		grid-area: form;
+		margin-bottom: 0;
+	}
+
+	.location{
+		grid-area: map;
+	}
+
+	.hours{
+		grid-area: hours;
+		margin-bottom: 0;
 	}
 }
+
 
