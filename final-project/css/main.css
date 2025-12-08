@@ -185,7 +185,7 @@ nav a:hover {
 	background-color: #c78c06;
 	color: #222222;
 }
-/*  */
+/* Search */
 .search-form {
 	display: flex;
 
@@ -209,6 +209,7 @@ nav a:hover {
 	justify-content: center;
 
 }
+/* Hero section */
 
 .hero {
 	background-image: url(../images/main-banner.jpg);
