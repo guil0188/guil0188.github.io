@@ -60,7 +60,6 @@ body{
 .navigation{
 	background-color: #222222;
 	padding: 0.5rem;
-	width: 100%;
 }
 .image-logo{
 	background-color: #c78c06;
@@ -83,10 +82,18 @@ nav a{
 	text-decoration: none;
 	color: #c78c06;
 }
+nav a:hover{
+	background-color: #c78c06;
+	color: #222222;
+	padding: 1rem 2rem;
+}
 
 .search-form{
 	display: flex;
 
+}
+.search-form label{
+	display: none;
 }
 .search-form input{
 	flex: 1;
@@ -383,8 +390,8 @@ footer a{
 
 	nav ul{
 		flex-direction: row;
-		gap: 7rem;
-		margin-left: 5rem;
+		gap: 6rem;
+		margin-left: 3rem;
 	}
 
 	.search-form{
