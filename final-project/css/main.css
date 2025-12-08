@@ -81,11 +81,13 @@ nav ul{
 nav a{
 	text-decoration: none;
 	color: #c78c06;
+	padding: 1rem 2rem;
+
+	
 }
 nav a:hover{
 	background-color: #c78c06;
 	color: #222222;
-	padding: 1rem 2rem;
 }
 
 .search-form{
@@ -390,7 +392,7 @@ footer a{
 
 	nav ul{
 		flex-direction: row;
-		gap: 6rem;
+		gap: 2rem;
 		margin-left: 3rem;
 	}
 
